@@ -6,7 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/vhking/remove-url-scheme)](https://github.com/vhking/remove-url-scheme/network)
 [![GitHub license](https://img.shields.io/github/license/vhking/remove-url-scheme)](https://github.com/vhking/remove-url-scheme/blob/master/LICENSE)
 
-Removes scheme from URL, i.e. Http://. Case insensitive
+Removes scheme from URL, e.g. 'Http://'. Case insensitive
 
 
 ## Install
