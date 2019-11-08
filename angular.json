@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "remove-url-scheme": {
+      "projectType": "library",
+      "root": "projects/remove-url-scheme",
+      "sourceRoot": "projects/remove-url-scheme/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/remove-url-scheme/tsconfig.lib.json",
+            "project": "projects/remove-url-scheme/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/remove-url-scheme/src/test.ts",
+            "tsConfig": "projects/remove-url-scheme/tsconfig.spec.json",
+            "karmaConfig": "projects/remove-url-scheme/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/remove-url-scheme/tsconfig.lib.json",
+              "projects/remove-url-scheme/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "remove-url-scheme"
+}
