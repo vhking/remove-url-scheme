@@ -1,4 +1,4 @@
-# @helt/remove-url-scheme
+# remove-url-scheme
 
 
 [![npm (scoped)](https://img.shields.io/npm/v/@helt/remove-url-scheme.svg)](https://www.npmjs.com/package/@helt)
