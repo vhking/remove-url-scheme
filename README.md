@@ -44,32 +44,31 @@ export class AppModule {}
  
 ```
 
-2) Pipe or through DI in component
+2) Used through pipe operator in template or DI in component
 ```html
 <button mat-stroked-button>
     <i class="material-icons">language</i>
-    {{'https://github.com/' | removeUrlScheme}}
+    {{'https://github.com' | removeUrlScheme}}
 </button>
 
 ```
-
 
 ```typescript
 import { RemoveUrlSchemePipe } from '@helt/remove-url-scheme';
 
 export class ExampleComponent implements OnInit {
   newUrl!: string;
-  constructor(private rus: RemoveUrlSchemePipe) {
-    this.newUrl = this.rus.tranform(url);
+  constructor(private removeUrlSchemePipe: RemoveUrlSchemePipe) {
+    this.newUrl = this.rus.tranform('https://github.com');
   }
   ngOnInit() {
   }
 }
 
 ```
+> https://github.com -> github.com 
 
-Before: </br>
-![Before](./img/before.PNG) </br>
-After: </br>
-![After](./img/after.PNG)
+</br>
+
+> http://github.com -> github.com 
 
