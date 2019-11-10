@@ -1,6 +1,6 @@
 # remove-url-scheme
 
-[![npm (scoped)](https://img.shields.io/npm/v/@helt/remove-url-scheme.svg)](https://www.npmjs.com/package/@helt)
+[![npm (scoped)](https://img.shields.io/npm/v/@helt/remove-url-scheme.svg)](https://www.npmjs.com/package/@helt/remove-url-scheme)
 [![GitHub issues](https://img.shields.io/github/issues/vhking/remove-url-scheme)](https://github.com/vhking/remove-url-scheme/issues)
 [![GitHub stars](https://img.shields.io/github/stars/vhking/remove-url-scheme)](https://github.com/vhking/remove-url-scheme/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/vhking/remove-url-scheme)](https://github.com/vhking/remove-url-scheme/network)
@@ -8,6 +8,9 @@
 
 Removes scheme from URL, e.g. 'Http://'. Case insensitive
 
+Author of regex expression: [FailedDev](https://stackoverflow.com/a/8206299)
+
+![RegexExpVis](../../img/regexExpVis.png)
 
 ## Install
 
