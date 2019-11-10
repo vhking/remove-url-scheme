@@ -3,8 +3,7 @@ import { RemoveUrlSchemePipe } from './remove-url-scheme.pipe';
 
 @NgModule({
   declarations: [RemoveUrlSchemePipe],
-  imports: [
-  ],
+  providers: [RemoveUrlSchemePipe],
   exports: [RemoveUrlSchemePipe]
 })
 export class RemoveUrlSchemeModule { }

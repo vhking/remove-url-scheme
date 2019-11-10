@@ -1,6 +1,6 @@
 {
   "name": "@helt/remove-url-scheme",
-  "version": "0.0.0",
+  "version": "2.1.0",
   "description": "Removes scheme from URL, i.e. Http://. Case insensitive",
   "author": "vhking",
   "license": "MIT",
