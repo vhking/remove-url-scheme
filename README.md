@@ -8,6 +8,9 @@
 
 Removes scheme from URL, e.g. 'Http://'. Case insensitive
 
+Author of regex expression: [FailedDev](https://stackoverflow.com/a/8206299)
+
+![RegexExpVis](./img/regexExpVis.png)
 
 ## Install
 
